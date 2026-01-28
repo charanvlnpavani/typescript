@@ -21,3 +21,8 @@ var vamyFunction2 = myFunction2("charan", "charan@gmail.com");
 var vamyFunction3 = myFunction3(7);
 var vamyFunction4 = myFunction4();
 console.log(vamyFunction2, vamyFunction3, vamyFunction4);
+function myFunction5() {
+    return "Charan is a intelligent";
+}
+var result = myFunction5();
+console.log(result);

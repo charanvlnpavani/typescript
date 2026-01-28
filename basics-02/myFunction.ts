@@ -4,7 +4,7 @@ function myFunction(
   isStudent: boolean,
   email: string,
   address: string,
-): void {
+) {
   console.log("Name:", name);
   console.log("Age:", age);
   console.log("Is Student:", isStudent);
@@ -30,3 +30,10 @@ let vamyFunction4 = myFunction4();
 
 console.log(vamyFunction2, vamyFunction3, vamyFunction4);
 export {};
+
+function myFunction5(): string {
+  return "Charan is a intelligent";
+}
+
+let result = myFunction5();
+console.log(result);
