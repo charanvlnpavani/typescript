@@ -1,11 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var direction;
 (function (direction) {
-    direction[direction["UP"] = 0] = "UP";
-    direction[direction["DOWN"] = 1] = "DOWN";
-    direction[direction["LEFT"] = 2] = "LEFT";
-    direction[direction["RIGHT"] = 3] = "RIGHT";
+    direction["UP"] = "top";
+    direction["DOWN"] = "bottom";
+    direction["LEFT"] = "left";
+    direction["RIGHT"] = "right";
 })(direction || (direction = {}));
-console.log(direction.UP); // Output: 0
-console.log(direction.DOWN); // Output: 1
-console.log(direction.LEFT); // Output: 2
-console.log(direction.RIGHT); // Output: 3
+console.log(direction.UP); // Output: top
+console.log(direction.DOWN); // Output: bottom
+console.log(direction.LEFT); // Output: left
+console.log(direction.RIGHT); // Output: right
